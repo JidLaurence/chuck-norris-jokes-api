@@ -2,17 +2,21 @@
 
 ## Step 1
 
+Install nodejs version 20.9.0
+
+## Step 2
+
 Clone repository (Note\* The repository is public)
 
 ```
 git clone https://github.com/JidLaurence/chuck-norris-jokes-api.git
 ```
 
-## Step 2
+## Step 3
 
 Copy and paste the development example environment from .env.example into the .env file.
 
-## Step 3
+## Step 4
 
 Install nodejs
 
@@ -20,7 +24,7 @@ Install nodejs
 npm install
 ```
 
-## Step 4
+## Step 5
 
 Run the API
 
