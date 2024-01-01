@@ -18,7 +18,7 @@ Copy and paste the development example environment from .env.example into the .e
 
 ## Step 4
 
-Install nodejs
+Install packages
 
 ```
 npm install
