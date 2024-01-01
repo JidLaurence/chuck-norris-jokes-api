@@ -15,8 +15,6 @@ export default async function routes(app: Application) {
     });
 
     app.get('/', async (req: any, res: any) => {
-        console.log(req.headers);
-        console.log('access');
         return res.send({
             name: project.name,
             version: project.version,
