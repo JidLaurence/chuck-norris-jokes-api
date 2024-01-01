@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "@routes/*": ["routes/*"],
+            "@controllers/*": ["controllers/*"],
+            "@config": ["config/index.ts"],
+            "@interfaces/*": [
+                "typescript/interfaces/*",
+                "typescript/interfaces"
+            ],
+            "@type/*": ["typescript/types/*"],
+            "@enums/*": ["typescript/enums/*"],
+            "@middlewares/*": ["middlewares/*"],
+            "@catchWrap": ["libs/catchWrap.ts"],
+            "@axios": ["libs/axios.ts"],
+            "@libs/*": ["libs/*"]
+        },
+        "typeRoots": ["node_modules/@types", "src/typescript/types"],
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "mapRoot": "/",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "filesGlob": ["**/*.ts"]
+}
+

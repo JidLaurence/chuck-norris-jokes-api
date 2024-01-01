@@ -1,0 +1,13 @@
+{
+    "@routes": "/routes",
+    "@controllers": "/controllers",
+    "@config": "/config/index.ts",
+    "@interfaces": "/typescript/interfaces",
+    "@type": "/typescript/types",
+    "@enums": "/typescript/enums",
+    "@middlewares": "/middlewares",
+    "@catchWrap": "/libs/catchWrap.ts",
+    "@axios": "/libs/axios.ts",
+    "@libs": "/libs"
+}
+

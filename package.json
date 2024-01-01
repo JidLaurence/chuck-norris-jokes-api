@@ -1,0 +1,48 @@
+{
+    "name": "chuck-norris-jokes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "author": "Jed Laurence C. Udtohan",
+    "license": "ISC",
+    "scripts": {
+        "serve": "node dist/server.js",
+        "dev": "nodemon -L",
+        "build": "rimraf ./dist && tsc",
+        "start": "tsc --watch",
+        "script": "ts-node --files src/scripts/index.ts",
+        "deploy": "ts-node --files src/server.ts --max-old-space-size=5120",
+        "migrate:up": "npx sequelize-cli db:migrate",
+        "migrate:undo": "npx sequelize-cli db:migrate:undo:all"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.17",
+        "axios": "^1.5.1",
+        "bcrypt": "^5.1.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-validator": "^7.0.1",
+        "http": "0.0.1-security",
+        "jsonwebtoken": "^9.0.1",
+        "md5": "^2.3.0",
+        "nodemailer": "^6.9.7",
+        "nodemon": "^3.0.1",
+        "rimraf": "^5.0.1"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.0",
+        "@types/cors": "^2.8.17",
+        "@types/jsonwebtoken": "^9.0.2",
+        "@types/lodash": "^4.14.196",
+        "@types/pdfmake": "^0.2.5",
+        "@types/uuid": "^9.0.4",
+        "lodash": "^4.17.21",
+        "module-alias": "^2.2.3",
+        "prettier": "^3.0.1",
+        "sequelize-cli": "^6.6.1"
+    }
+}
+
